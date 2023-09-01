@@ -1,0 +1,46 @@
+<html>
+<head><title>Homepage</title>
+<link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+
+<!-- -------------------------------------=======================form for input file=======================---------------------------------------------- -->
+    <div class="file-input-div">
+<form action="/create/up" method="POST" enctype="multipart/form-data" class="file-input-form">
+    <div class="file-input-header"><h1>Upload CSV file Here</h1></div>
+    <div class="file-input">    <input type="file" name="avatar" accept=".csv" id="CSVid">
+    </div>
+    <div class="form-button"><button>Upload</button></div>
+    
+</form>
+</div>
+
+<!-- ===========================================================================Uploaded-Files-Display-==================================================== -->
+<div class="uploaded-files-div">
+    <%if(aa.length==0){%>
+        <h1>Container is Empty</h1>
+        <%}else{%>
+
+<div class="headings">
+    <div class="hedings-One">Name</div>
+    <div class="hedings-Two">Date</div>
+    <div class="hedings-Three">Time</div>
+    <div class="hedings-Four">Delete</div>
+</div>     
+<ul>
+    <%for(let a of aa){%>
+        <li class="file-display-li">
+     <div> <a href="/create/view/<%=a._id%>" target="_blank"><%=a.filename%></a></div>
+     <div class="ulLiDivThree">  <a href="/create/view/<%=a._id%>" target="_blank"><%=a.createdAt.toLocaleString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'})%></a></div>
+     <div class="ulLiDivThree"> <a href="/create/view/<%=a._id%>" target="_blank"><%=a.createdAt.toLocaleTimeString()%></a></div> 
+     <div class="ulLiDivThree"> <a href="/create/delete/<%=a._id%>">DELETE</a></div>
+        </li>
+        <%}%>  
+</ul>
+
+
+<%}%>
+</div>
+
+</body>
+</html>

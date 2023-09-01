@@ -1,0 +1,98 @@
+body{
+   /* background-image: linear-gradient(to right,rgb(114, 114, 207),rgb(205, 205, 83));*/
+   margin: 0px;
+   padding: 0px; 
+}
+.file-input-div{
+    height:200px;
+    width:1525px;
+     background-image: linear-gradient(to right,rgb(193, 44, 128),rgb(178, 190, 103));
+    
+    }
+    .file-input-form{
+        display: flex;
+        flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+    }
+
+    .file-input input[type='file']{
+    /* background-color: rgb(224, 26, 26); */
+    width: 300px;
+    }
+
+
+    .form-button button{
+        margin-top: 10px;
+        margin-left: -90px;
+        border-radius: 0.4rem;
+        font-size: 1.4rem;
+        font-weight: 1000;
+        height:40px;
+        width:200px;
+        background-image: linear-gradient(to right,rgb(12, 145, 21),blue);
+    }
+
+    .form-button button:hover{
+        font-weight: 1200;
+        font-size: 2rem;
+        background-image: linear-gradient(to right,rgb(24, 143, 203),rgb(180, 122, 13));
+
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+    /* ===========================================Table-Headings============================================================================= */
+    .headings{
+        height:70px;
+        width:1525px;
+        background-image: linear-gradient(to right,rgb(114, 114, 207),rgb(205, 205, 83));
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .headings div{
+        height:100%;
+        width:25%;
+        padding-left: 40px;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: left; */
+        align-items: center;
+    }
+    ul{
+        width:1483.5px;
+        /* background-image: linear-gradient(to right,rgb(217, 39, 163),rgb(30, 144, 188)); */
+    }
+  ul  li{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    font-style: italic;
+    background-color: white;
+    }
+  
+
+    .ulLiDivThree{
+        margin-left: 70px;
+    }
+   
+    ul li div{
+        width:25%;
+        margin-top: 20px;
+        overflow: hidden;
+        font-weight: bold;
+    }
+    ul li div a{
+        text-decoration: none;
+        color: black;
+    }
+    
+
+    
