@@ -1,14 +1,12 @@
 <h1 align="center" id="title">CSV Uploads</h1>
 
-<p align="center"><img src="https://socialify.git.ci/https://Bhu559910/CSV-Uploads/image?font=KoHo&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pulls=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
-
 <p id="description"> The project allows you to upload CSV files display the data in them and perform various operations on the data.</p>
 
 <p align="center"><img src="https://img.shields.io/badge/any_text-you_like-blue" alt="shields"></p>
 
 <h2>🚀 Demo</h2>
 
-[https://csv-uploads-782g.onrender.com/](https://csv-uploads-782g.onrender.com/)
+[https://csv-uploads-782g.onrender.com/](https://new-host.onrender.com)
 
   
 <h2>🧐 Features</h2>
